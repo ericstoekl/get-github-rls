@@ -3,7 +3,7 @@ provider:
   gateway: http://localhost:8080
 
 functions:
-  release:
+  release1:
     lang: python
-    handler: ./release
-    image: release
+    handler: ./release1
+    image: release1
