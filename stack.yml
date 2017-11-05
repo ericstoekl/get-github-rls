@@ -6,5 +6,5 @@ functions:
   release1:
     lang: python
     handler: ./release1
-    image: alexellis/release1
+    image: alexellis/release1:latest
 # Update
