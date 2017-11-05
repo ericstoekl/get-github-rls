@@ -3,8 +3,8 @@ provider:
   gateway: http://localhost:8080
 
 functions:
-  release1:
+  release:
     lang: python
-    handler: ./release1
-    image: alexellis/release1:latest
+    handler: ./release
+    image: alexellis/release:latest
 # Update
