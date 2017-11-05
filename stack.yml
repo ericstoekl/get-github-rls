@@ -11,5 +11,4 @@ functions:
   nameexists:
     lang: node
     handler: ./nameexists
-    image: alexellis/nameexists
-
+    image: alexellis/nameexists:0.1
