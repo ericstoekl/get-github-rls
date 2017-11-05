@@ -1,5 +1,8 @@
 "use strict"
 
 module.exports = (context, callback) => {
-    callback(undefined, {status: "done"});
+    let url = context;
+    request.get(url, (err, res, body) => {
+      callback(err, {status: "done", "body": body});
+    });
 }
