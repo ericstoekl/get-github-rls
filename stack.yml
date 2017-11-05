@@ -12,3 +12,5 @@ functions:
     lang: node
     handler: ./nameexists
     image: alexellis/nameexists:0.1
+
+# Event a comment will re-publish.
