@@ -6,4 +6,4 @@ functions:
   release1:
     lang: python
     handler: ./release1
-    image: release1
+    image: alexellis/release1
