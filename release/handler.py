@@ -1,2 +1,2 @@
 def handle(st):
-    print("Checking release for " + st)
+    print("Checking GitHub repo for release version: " + st)
