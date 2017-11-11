@@ -3,14 +3,14 @@ provider:
   gateway: http://localhost:8080
 
 functions:
-  release:
+  rls:
     lang: python
-    handler: ./release
-    image: alexellis/release:latest
+    handler: ./rls
+    image: ems5311/rls:latest
 
-  nameexists:
+  nameispresent:
     lang: node
-    handler: ./nameexists
-    image: alexellis/nameexists:0.1
+    handler: ./nameispresent
+    image: ems5311/nameispresent:latest
 
 # Event a comment will re-publish the functions.
