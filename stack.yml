@@ -14,3 +14,4 @@ functions:
     image: ems5311/nameispresent:latest
 
 # Event a comment will re-publish the functions.
+# cool!
