@@ -14,12 +14,14 @@ functions:
     image: ems5311/nameispresent:latest
 
   gif-maker:
-    image: ems5311/gif-maker:latest
-    fprocess: ./entry.sh
+    lang: Dockerfile
+    handler: ./gif-maker
+    image: ems5311/gif-maker:0.1
 
   youtube-dl:
-    image: ems5311/youtube-dl:latest
-    fprocess: ./entry.sh
+    lang: Dockerfile
+    handler: ./youtube-dl
+    image: ems5311/youtube-dl:0.1
 
 # Event a comment will re-publish the functions.
 # cool!
